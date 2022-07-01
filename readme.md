@@ -4,7 +4,7 @@ A `classList`-like API that's purely based on the reading/writing the class attr
 
 ## WHY?!
 
-Because apparently touching the `classList` API for a node causes a `DOMTokenList` to be allocated for that node indefinitely. Like you may be asking the `classList` API to delete a class from a node that perhaps doesn't even classes to begin with, and that will still allocate a `DOMTokenList` for that node, which sounds like nonsense to me, that's what this little module is meant to address. You probably don't need it.
+Because apparently touching the `classList` API for a node causes a `DOMTokenList` to be allocated for that node indefinitely. Like you may be asking the `classList` API to delete a class from a node that perhaps doesn't even have classes to begin with, and that will still allocate a `DOMTokenList` for that node, which sounds like nonsense to me, that's what this little module is meant to address. You probably don't need it.
 
 ## Install
 

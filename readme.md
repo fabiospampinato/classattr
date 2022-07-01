@@ -1,6 +1,6 @@
 # ClassAttr
 
-A `classList`-like API that's purely based on the reading/writing the class attribute.
+A `classList`-like API that's purely based on reading/writing the class attribute.
 
 ## WHY?!
 

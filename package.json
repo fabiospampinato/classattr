@@ -1,7 +1,7 @@
 {
   "name": "classattr",
   "repository": "github:fabiospampinato/classattr",
-  "description": "A classList-like API that's purely based on the reading/writing the class attribute.",
+  "description": "A classList-like API that's purely based on reading/writing the class attribute.",
   "version": "1.0.0",
   "type": "module",
   "main": "dist/index.js",

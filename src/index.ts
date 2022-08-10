@@ -5,9 +5,8 @@ import type {Target} from './types';
 
 /* HELPERS */
 
-const whitespaceRe = /\s+/g;
-const hasWhitespace = ( str: string ): boolean => whitespaceRe.test ( str );
-const attr2arr = ( str: string ): string[] => str.split ( whitespaceRe ).filter ( Boolean );
+const hasWhitespace = ( str: string ): boolean => str.includes ( ' ' );
+const attr2arr = ( str: string ): string[] => str.split ( ' ' ).filter ( Boolean );
 const attr2set = ( attr: string ): Set<string> => new Set ( attr2arr ( attr ) );
 const set2attr = ( set: Set<string> ): string => Array.from ( set ).join ( ' ' );
 const attr2target = ( target: Target, attr: string ): void => target.setAttribute ( 'class', attr );

@@ -13,15 +13,15 @@
     "compile:watch": "tsex compile --watch",
     "test": "tsex test",
     "test:watch": "tsex test --watch",
-    "prepublishOnly": "npm run clean && npm run compile && npm run test"
+    "prepublishOnly": "tsex prepare"
   },
   "keywords": [
     "classlist",
     "attribute"
   ],
   "devDependencies": {
-    "fava": "^0.0.6",
-    "tsex": "^1.1.2",
-    "typescript": "^4.7.4"
+    "fava": "^0.1.1",
+    "tsex": "^2.1.0",
+    "typescript": "^4.9.5"
   }
 }

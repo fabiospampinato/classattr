@@ -112,3 +112,4 @@ const ClassAttr = {
 /* EXPORT */
 
 export default ClassAttr;
+export type {Target};

@@ -2,7 +2,7 @@
   "name": "classattr",
   "repository": "github:fabiospampinato/classattr",
   "description": "A classList-like API that's purely based on reading/writing the class attribute.",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "type": "module",
   "main": "dist/index.js",
   "exports": "./dist/index.js",

@@ -13,7 +13,7 @@ Those problems is what this library is meant to address, maybe you don't need it
 ## Install
 
 ```sh
-npm install --save classattr
+npm install classattr
 ```
 
 ## Usage
@@ -23,7 +23,11 @@ It works just like the `classList` API.
 ```ts
 import ClassAttr from 'classattr';
 
+// Let's get a targe telement to manipulate the classes of
+
 const element = document.body;
+
+// Let's use all the provided classList-like methods
 
 ClassAttr.add ( element, 'foo', 'bar', 'baz' );
 
